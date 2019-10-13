@@ -1,0 +1,20 @@
+<div class="header"> 
+		<img src="bynogame-logo-siyah.jpg" style="width:9em";>
+	</div>
+	<div class="header"> 
+		<form class="example" action="Anasayfa.html">
+			<input type="text" placeholder="Search.." name="search">
+		</form>
+	</div>
+	<div class="header"> 
+		<form class="example" action="Anasayfa.html">
+			<button type="submit">ARA</button>
+		</form>
+	</div>	 	
+	<div class="hvrenk">
+			<a href="https://www.hollyhood.com.tr/">Hollyhood</a>
+			<a>Param Kart</a>
+			<a>Yorumlar</a>
+			<a>Kurumsal</a>				
+			<a>İK</a>
+	</div> 
