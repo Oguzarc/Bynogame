@@ -52,7 +52,16 @@
 
 <style>
 
+.carousel .item {
+  height: 350px;
+}
 
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 350px;
+}
 
 </style>
 <script>
