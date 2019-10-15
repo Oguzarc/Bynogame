@@ -1,6 +1,9 @@
 <template>
     <div>
 <div>
+<div class="anabaslık">
+      <h3>ITEM VE SKIN</h3>
+      </div>
   <b-card no-body>
     <b-tabs pills card vertical>
       <b-tab title="Knight Online Item" active><b-card-text>
@@ -777,3 +780,17 @@
 
     </div>
 </template>
+
+<style scoped>
+.anabaslık{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: .75em .75em .1em;	
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	background-color:white;
+  color:#ed502f;
+}
+</style>
