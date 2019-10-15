@@ -35,14 +35,14 @@
       </ul>
     </a>
 	</div>	 	
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Oyunlar
+<div class="üstmenu">
+  <div class="dusenmenu">
+    <button class="dusenbut">Oyunlar
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <div class="row">
-        <div class="column">         
+    <div class="dusenmenu-content">
+      <div class="sıra">
+        <div class="sutun">         
           <ul style="width: 52;">
           <li >
             <a id="menu-ana" href=""> Knight Online</a>
@@ -85,13 +85,13 @@
           </li>
           </ul>
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 2</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>		  
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 3</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
@@ -100,25 +100,25 @@
       </div>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="dropbtn">Knight Online
+  <div class="dusenmenu">
+    <button class="dusenbut">Knight Online
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <div class="row">
-        <div class="column">
+    <div class="dusenmenu-content">
+      <div class="sıra">
+        <div class="sutun">
           <h3>Category 1</h3>
           <a href="#">deneme</a>
           <a href="#">deneme</a>
           <a href="#">deneme</a>  
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 2</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 3</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
@@ -127,25 +127,25 @@
       </div>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="dropbtn">İtem & Skin
+  <div class="dusenmenu">
+    <button class="dusenbut">İtem & Skin
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <div class="row">
-        <div class="column">
+    <div class="dusenmenu-content">
+      <div class="sıra">
+        <div class="sutun">
           <h3>Category 1</h3>
           <a href="#">deneme</a>
           <a href="#">deneme</a>
           <a href="#">deneme</a>	  
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 2</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 3</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
@@ -154,25 +154,25 @@
       </div>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="dropbtn">WAX
+  <div class="dusenmenu">
+    <button class="dusenbut">WAX
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <div class="row">
-        <div class="column">
+    <div class="dusenmenu-content">
+      <div class="sıra">
+        <div class="sutun">
           <h3>Category 1</h3>
           <a href="#">deneme</a>
           <a href="#">deneme</a>
           <a href="#">deneme</a>		  
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 2</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 3</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
@@ -181,25 +181,25 @@
       </div>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="dropbtn">Pazar
+  <div class="dusenmenu">
+    <button class="dusenbut">Pazar
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <div class="row">
-        <div class="column">
+    <div class="dusenmenu-content">
+      <div class="sıra">
+        <div class="sutun">
           <h3>Category 1</h3>
           <a href="#">deneme</a>
           <a href="#">deneme</a>
           <a href="#">deneme</a>		  
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 2</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 3</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
@@ -208,25 +208,25 @@
       </div>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="dropbtn">Destekle
+  <div class="dusenmenu">
+    <button class="dusenbut">Destekle
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <div class="row">
-        <div class="column">
+    <div class="dusenmenu-content">
+      <div class="sıra">
+        <div class="sutun">
           <h6>Category 1</h6>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 2</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
-        <div class="column">
+        <div class="sutun">
           <h3>Category 3</h3>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
@@ -239,7 +239,7 @@
 </div>
 </template>
 
-<style scoped>
+<style>
 .header {
 	display: flex;
 	justify-content: center;
@@ -317,7 +317,7 @@ form.example input[type=text] {
 /* ARA butonu stili */
 form.example button { 
   width: center;
-  margin-left:-4px;
+  margin-left:0px;
   padding: 9px;
   background: #e9ecef;
   color: #495057;
@@ -341,8 +341,7 @@ form.example::after {
 }
 
   /* Navbar container */
-.navbar {
-  
+.üstmenu {
   overflow: hidden;
   background-color: #ed502f;
   font-family: Arial;
@@ -351,7 +350,7 @@ form.example::after {
 }
 
 /* navbar içi linkler */
-.navbar a {
+.üstmenu a {
   float: left;
   font-size: 16px;
   color: white;
@@ -361,13 +360,13 @@ form.example::after {
 }
 
 /* dropdown container */
-.dropdown {
+.düsenmenu {
   float: left;
   overflow: hidden;
 }
 
 /* Dropdown button */
-.dropdown .dropbtn {
+.dusenmenu .dusenbut {
   font-size: 16px;
   border: none;
   outline: none;
@@ -378,18 +377,18 @@ form.example::after {
   margin:0; /* Important for vertical align on mobile phones */
   width:150px;
   margin-left:63px;
-
+ float:left;
 }
 
 /* mause gelince arka plan değişikliği */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.üstmenu a:hover, .dusenmenu:hover .dusenbut {
   background-color: white;
   color:#ed502f;
   transition: color .2s;
 }
 
 /* Dropdown content (hidden by default) */
-.dropdown-content {
+.dusenmenu-content {
   display: none;
   position: absolute;
   background-color: white;
@@ -400,21 +399,24 @@ form.example::after {
 }
 
 /* dropdown menu  hover */
-.dropdown:hover .dropdown-content {
+.dusenmenu:hover .dusenmenu-content {
+  margin-top:50px;
   display: block;
+  z-index:15;
 }
 
 /* 3 tane eşit sütün için */
-.column {
+.sutun {
   float: left;
   width: 33.33%;
   padding: 10px;
   background-color: white;
   height: auto;
+  
 }
 
 /* Sütun içi stil */
-.column a {
+.sutun a {
   float: left;
   color: black;
   padding: 2px;
@@ -424,7 +426,7 @@ form.example::after {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.sıra:after {
   content: "";
   display: table;
   clear: both;
