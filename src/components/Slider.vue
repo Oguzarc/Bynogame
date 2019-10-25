@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="boyut">
      
     <b-carousel
       id="carousel-1"
@@ -50,20 +50,24 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 
 .carousel .item {
-  height: 350px;
+  height: 500px;
 }
 
 .item img {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 350px;
+    min-height: 500px;
+}
+
+.boyut{
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  margin-top: 80px;
 }
 
 </style>
-<script>
- 
-</script>

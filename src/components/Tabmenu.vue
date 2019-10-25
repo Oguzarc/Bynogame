@@ -1,6 +1,6 @@
 <template>
-    <div>
-<div>
+    
+<div class="boyut">
 <div class="anabaslık">
       <h3>ITEM VE SKIN</h3>
       </div>
@@ -778,7 +778,7 @@
   </b-card>
 </div>
 
-    </div>
+    
 </template>
 
 <style scoped>
@@ -792,5 +792,11 @@
 	align-items: center;
 	background-color:white;
   color:#ed502f;
+}
+.boyut{
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  margin-top:40px;
 }
 </style>

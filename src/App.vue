@@ -1,14 +1,21 @@
 <template>
   <div id="app" >
       <Header/>
+      <Slider/>
+      <Tabmenu/>
   </div>
 </template>
+
 <script>
 import Header from './components/Header.vue'
+import Tabmenu from './components/Tabmenu.vue'
+import Slider from './components/Slider.vue'
 export default {
   name: 'app',
   components: {   
     Header,
+    Tabmenu,
+    Slider
   }
 }
 </script>
