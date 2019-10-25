@@ -8,7 +8,7 @@
 			<a href="#ik">İK</a>
 	</div>
 	<div class="header2">
-		<a><img src="../assets/bynogame-logo-siyah.png" style="width:9em"></a>	 
+		<a href="index.html"><img src="../assets/bynogame-logo-siyah.png" style="width:9em"></a>	 
 		<a>
 			<form class="example" action="Anasayfa.html">
 				<input type="text" placeholder="Search.." name="search">	
@@ -420,7 +420,7 @@ form.example::after {
   float: left;
   color: black;
   padding: 2px;
-  text-decoration: none;
+  text-decoration: none !important;
   display: left;
   text-align: left;
 }
