@@ -1,7 +1,7 @@
 <template>
 <div>
 	<div class="header2">
-		<a href="index.html"><img src="../assets/bynogame-logo-siyah.png" style="width:180px"></a>	 
+		<a href="/"><img src="../assets/bynogame-logo-siyah.png" style="width:180px"></a>	 
 	</div>
 </div>
 </template>

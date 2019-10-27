@@ -1,8 +1,7 @@
 <template>
   <div >
       <Header/>
-      <!--<Giris/>-->
-      <odeme/>
+      <Giris/>
       <altkisim/>
 
   </div>
@@ -13,15 +12,13 @@
 import Header from './components/girisheader.vue'
 import Giris from './components/girisyap.vue'
 import altkisim from './components/altkisim.vue'
-import odeme from './components/odeme.vue'
 
 export default {
-  name: 'app',
+  name: 'girisyap',
   components: {   
     Header,
     Giris,
     altkisim,
-    odeme
   }
 }
 </script>

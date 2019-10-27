@@ -8,7 +8,7 @@
 			<a href="#ik">İK</a>
 	</div>
 	<div class="header2">
-		<a href="index.html"><img src="../assets/bynogame-logo-siyah.png" style="width:9em"></a>	 
+		<a href="/"><img src="../assets/bynogame-logo-siyah.png" style="width:9em"></a>	 
 		<a>
 			<form class="example" action="Anasayfa.html">
 				<input type="text" placeholder="Search.." name="search">	
@@ -17,17 +17,17 @@
     </a>
     <a>
       <ul class="İkonS" style="list-style: none;"> 
-        <a href="#shopcart">
+        <a href="/Giris">
             <li><i class="fa fa-user fa-lg"></i>
             </li>
             Giriş Yap
         </a>
-        <a href="#shopcart">
+        <a href="/Sepetim">
           <li><i class="fa fa-shopping-cart fa-lg"></i>
           </li>
           Sepetim
         </a>
-        <a href="#shopcart">
+        <a href="/Ödemeler">
           <li><i class="fa fa-credit-card"></i>
           </li>
           Ödeme
@@ -239,7 +239,7 @@
 </div>
 </template>
 
-<style>
+<style scoped>
 .header {
 	display: flex;
 	justify-content: center;

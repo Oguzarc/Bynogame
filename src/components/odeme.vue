@@ -1,4 +1,5 @@
 <template>
+<div class=boyut>
     <div class="bolge1">
         <div class="sıra">
                 <div class="col-12">
@@ -108,7 +109,8 @@
                                                                             font-weight: bolder;"></div>
         </div>
     </div>
-    </div>   
+    </div>  
+    </div> 
 </template>
 
 <style scoped>
@@ -287,4 +289,8 @@ bottom: 2em;
 margin-right: 2em;
 z-index: 99999;
 }
+.boyut{
+    margin-top: 100px;
+}
 </style>
+
