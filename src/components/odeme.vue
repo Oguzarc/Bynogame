@@ -1,6 +1,7 @@
 <template>
 <div class=boyut>
     <div class="bolge1">
+        <!--tl bakiye-->
         <div class="sıra">
                 <div class="col-12">
                     <p class="w-100" style="text-align: end;">Mevcut Bakiyeniz: 
@@ -8,6 +9,7 @@
                         <span>TL</span></p>
                 </div>
         </div>
+        <!--ödeme yazısı ve ayırıcı-->
         <div class="sıra">
             <div class="col-lg-12 col-sm-12">
                 <h3 class="text-center mb-2">Ödeme Miktarı</h3>
@@ -18,6 +20,7 @@
                     <p class="ayırıcı d-flex justify-content-center">Öde 'ye Tıklayarak Fiyat Girebilir/Güncelleyebilirsiniz.</p>
             </div>
         </div>
+        <!--ödeme yöntemleri tabı-->
         <div class="sıra">
             <div class="col-lg-12 col-sm-12">
                 <h3 class="text-center mb-2">Ödeme Yöntemleri</h3>
@@ -90,27 +93,138 @@
                         </ul> 
                     </b-tab>
                     <b-tab title="Kredi/Banka Kartı">
-                    
+                        <div class="ara-cont">
+                         <input type="text" id="mySearch" onkeyup="kısıtlama()" placeholder="Arama yapabilirsiniz" title="Type in a category">
+                         <i class="fa fa-search"></i>
+                        </div>
+                        <ul id="myMenu">
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                      <i class="fa fa-info"></i>
+                                    </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/bynogamekart.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">Param ByNoGame</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                            </li>
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                        <i class="fa fa-info"></i>
+                                    </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/troy.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">Kredi Kartı İle Ödeme Yap(Gpay)</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                            </li>
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                        <i class="fa fa-info"></i>
+                                    </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/ininal.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">İninal Kart İle Ödeme Yap(Gpay)</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                                
+                            </li>
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                        <i class="fa fa-info"></i>
+                                    </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/troy.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">Kredi Kartı İle Ödeme Yap (Türkpara)</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                            </li>
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                        <i class="fa fa-info"></i>
+                                </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/troy.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">Kredi Kartı İle Ödeme Yap (PAYU)</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                                </li>
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                        <i class="fa fa-info"></i>
+                                </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/genckart.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">Param Genç Kart</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                                </li>                                             
+                        </ul>
                     </b-tab>
                     <b-tab title="Atm/Havale/EFT"><p></p></b-tab>
-                    <b-tab title="E-Cüzdan"><p></p></b-tab>
+                    <b-tab title="E-Cüzdan">
+                        <div class="ara-cont">
+                         <input type="text" id="mySearch" onkeyup="kısıtlama()" placeholder="Arama yapabilirsiniz" title="Type in a category">
+                         <i class="fa fa-search"></i>
+                        </div>
+                        <ul id="myMenu">
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                      <i class="fa fa-info"></i>
+                                    </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/bynogamekart.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">Papara</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                            </li>
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                        <i class="fa fa-info"></i>
+                                    </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/troy.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">G2A Pay</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                            </li>
+                            <li>
+                                <div class="logolar">
+                                    <div class="info" href="#">
+                                        <i class="fa fa-info"></i>
+                                </div>
+                                    <img src="https://images.bynogame.com/images/banka_logolar/genckart.png" class="img-responsive" alt="">
+                                </div>
+                                <a href="#">Param Genç Kart</a>
+                                <button type="button" class="funds-cta">
+                                <span class="funds-btn">Öde</span></button>
+                                </li>                                             
+                        </ul>
+                    </b-tab>
                     <b-tab title="Diğer"><p></p></b-tab>
                 </b-tabs>     
             </div>
         </div>
+        <!--chat button-->
         <div class="wrapper live-chat-wrapper" style="cursor: pointer; width: 132px; height: 100px;">
-        <div class="arrow_box">
+         <div class="arrow_box">
             7 <img src="https://images.bynogame.com/images/kama-08.png" alt="kama" style="width:12px;"> 24 Çevrimiçi
-        </div>
-        <div class="chat-circle text-center">
+         </div>
+         <div class="chat-circle text-center">
             <img class="bng-chat-head" alt="chat head logo" src="https://cdn.bynogame.com/site-images/bynocan-kafa2-onizleme.png">
-            <div class="intercom-badge animated bounce" style="display: none;color: #ed502f;
-                                                                            font-size: 1.25em;
-                                                                            font-weight: bolder;"></div>
+            <div class="intercom-badge animated bounce" style="display: none;color: #ed502f;font-size: 1.25em;font-weight: bolder;"></div>
+         </div>
         </div>
-    </div>
     </div>  
-    </div> 
+</div> 
 </template>
 
 <style scoped>
