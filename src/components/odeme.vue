@@ -94,7 +94,7 @@
                     </b-tab>
                     <b-tab title="Kredi/Banka Kartı">
                         <div class="ara-cont">
-                         <input type="text" id="mySearch" onkeyup="kısıtlama()" placeholder="Arama yapabilirsiniz" title="Type in a category">
+                         <input type="text" id="mySearch"  placeholder="Arama yapabilirsiniz" title="Type in a category">
                          <i class="fa fa-search"></i>
                         </div>
                         <ul id="myMenu">
@@ -170,7 +170,7 @@
                     <b-tab title="Atm/Havale/EFT"><p></p></b-tab>
                     <b-tab title="E-Cüzdan">
                         <div class="ara-cont">
-                         <input type="text" id="mySearch" onkeyup="kısıtlama()" placeholder="Arama yapabilirsiniz" title="Type in a category">
+                         <input type="text" id="mySearch"  placeholder="Arama yapabilirsiniz" title="Type in a category">
                          <i class="fa fa-search"></i>
                         </div>
                         <ul id="myMenu">
@@ -179,7 +179,7 @@
                                     <div class="info" href="#">
                                       <i class="fa fa-info"></i>
                                     </div>
-                                    <img src="https://images.bynogame.com/images/banka_logolar/bynogamekart.png" class="img-responsive" alt="">
+                                    <img src="https://images.bynogame.com/images/banka_logolar/paparalogo.jpg" class="img-responsive" alt="">
                                 </div>
                                 <a href="#">Papara</a>
                                 <button type="button" class="funds-cta">
@@ -190,7 +190,7 @@
                                     <div class="info" href="#">
                                         <i class="fa fa-info"></i>
                                     </div>
-                                    <img src="https://images.bynogame.com/images/banka_logolar/troy.png" class="img-responsive" alt="">
+                                    <img src="https://images.bynogame.com/images/banka_logolar/g2a.png" class="img-responsive" alt="">
                                 </div>
                                 <a href="#">G2A Pay</a>
                                 <button type="button" class="funds-cta">
@@ -201,9 +201,9 @@
                                     <div class="info" href="#">
                                         <i class="fa fa-info"></i>
                                 </div>
-                                    <img src="https://images.bynogame.com/images/banka_logolar/genckart.png" class="img-responsive" alt="">
+                                    <img src="https://images.bynogame.com/New_website_images/bank-logo/gpay-ecuzdan.png" class="img-responsive" alt="">
                                 </div>
-                                <a href="#">Param Genç Kart</a>
+                                <a href="#">GpayBakiye</a>
                                 <button type="button" class="funds-cta">
                                 <span class="funds-btn">Öde</span></button>
                                 </li>                                             
