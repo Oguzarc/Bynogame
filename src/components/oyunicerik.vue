@@ -1,6 +1,12 @@
 <template>
 <div class="boyut">
-    <div class="cont">      
+    <div class="cont">
+        <!--üst nav --> 
+        <div class="mt-3">
+      <b-pagination hide-goto-end-buttons  v-model="currentPage" :total-rows="rows" align="fill">
+      </b-pagination>
+        </div>
+        <!--ilk sıra -->      
     <b-card-group deck>
         <a href="/">
             <b-card
@@ -47,6 +53,7 @@
             </b-card>
         </a>     
     </b-card-group>
+    <!--2. sıra --> 
     <b-card-group deck class="mt-3">
         <a href="/">
             <b-card
@@ -93,6 +100,7 @@
             </b-card> 
         </a>     
     </b-card-group>
+    <!--3. sıra --> 
     <b-card-group deck class="mt-3">
         <a href="/">
             <b-card
@@ -139,9 +147,23 @@
             </b-card> 
         </a>     
     </b-card-group>
+    <div class="mt-5">
+      <b-pagination  hide-goto-end-buttons v-model="currentPage" :total-rows="rows" align="center"></b-pagination>
+    </div>
     </div> 
 </div>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        rows: 100,
+        currentPage: 1
+      }
+    }
+  }
+</script>
 
 <style scoped>
  .boyut{
