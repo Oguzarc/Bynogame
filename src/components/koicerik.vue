@@ -113,17 +113,6 @@
 </div>
 </template>
 
-<script>
-  export default {
-    data() {
-      return {
-        rows: 100,
-        currentPage: 1
-      }
-    }
-  }
-</script>
-
 <style scoped>
 .ko-icerik {
     border-top: 1px solid #ebebeb;
