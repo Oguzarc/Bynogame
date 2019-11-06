@@ -37,7 +37,7 @@
 	</div>	 	
 <div class="üstmenu">
   <div class="dusenmenu">
-    <button class="dusenbut">Oyunlar
+    <button @click="goOyunlar" class="dusenbut">Oyunlar
     </button>
     <div class="dusenmenu-content">
       <div class="sıra">
@@ -232,7 +232,16 @@
 </div> 
 </div>
 </template>
+<script>
+export default {
+  methods:{
+    goOyunlar(){
+      this.$router.push('/Oyunlar')
+    }
+  }
 
+}
+</script>
 <style scoped>
 .header {
 	display: flex;
