@@ -8,13 +8,13 @@
         </div>
         <!--ilk sıra -->      
     <b-card-group deck>
-        <a href="/">
+        <a href="/Oyunlar/knight-online">
             <b-card
                 img-src="https://images.bynogame.com/images/transcons/knight-online.png"
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                     Knight Online
                 </b-card-text>
             </b-card>
@@ -25,7 +25,7 @@
             img-alt="Image"
             img-top
             style="max-width: 20rem;" >
-            <b-card-text>
+            <b-card-text align="center">
             CS:GO Skin
             </b-card-text>
             </b-card> 
@@ -36,7 +36,7 @@
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                 V-GO
                 </b-card-text>
             </b-card> 
@@ -47,7 +47,7 @@
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                   League of Legends Riot Points
                 </b-card-text>
             </b-card>
@@ -61,7 +61,7 @@
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                  Black Desert Online
                 </b-card-text>
             </b-card>
@@ -72,7 +72,7 @@
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                     Steam
                 </b-card-text>
             </b-card>
@@ -83,7 +83,7 @@
             img-alt="Image"
             img-top
             style="max-width: 20rem;" >
-            <b-card-text>
+            <b-card-text align="center">
             Joygame Para
             </b-card-text>
             </b-card> 
@@ -94,7 +94,7 @@
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                 Tactic Force
                 </b-card-text>
             </b-card> 
@@ -108,7 +108,7 @@
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                  Point Blank Tg Epin
                 </b-card-text>
             </b-card>
@@ -119,7 +119,7 @@
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                     Fortnite
                 </b-card-text>
             </b-card>
@@ -130,7 +130,7 @@
             img-alt="Image"
             img-top
             style="max-width: 20rem;" >
-            <b-card-text>
+            <b-card-text align="center">
                 Oasis-Games
             </b-card-text>
             </b-card> 
@@ -141,7 +141,7 @@
                 img-alt="Image"
                 img-top
                 style="max-width: 20rem;" >
-                <b-card-text>
+                <b-card-text align="center">
                     Legend Online
                 </b-card-text>
             </b-card> 
