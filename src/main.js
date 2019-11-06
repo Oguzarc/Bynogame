@@ -5,6 +5,7 @@ import BootstrapVue from 'bootstrap-vue'
 import Anasayfa from './Anasayfa.vue'
 import Girisyap from './Girisyap.vue'
 import Ödemeler from './Ödemeler.vue'
+import Oyunlar from './Oyunlar.vue'
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
@@ -17,6 +18,7 @@ const routes = [
     {path:'/Giris', component:Girisyap},
     {path:'/', component:Anasayfa},
     {path:'/Ödemeler', component:Ödemeler},
+    {path:'/Oyunlar', component:Oyunlar},
 ];
 
 const router = new VueRouter({
