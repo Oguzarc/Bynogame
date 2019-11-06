@@ -66,6 +66,50 @@
         </a>  
     </b-card-group>
     </div>
+    <!--videolar ve resimler kısmı-->
+    <div class="cont">
+    <div class="col-12 ko-icerik">
+        <dl class="reward">
+            <dd>
+                <strong style="font-size: 12pt;">
+                    <strong style="font-size: 11px;">
+                        <span style="font-size: 10pt; color: #3366ff;">
+                            <span style="color: #339966;">KENDİNİ ŞÖVALYE YAP</span>
+                            </span></strong></strong></dd>
+        </dl>
+        <p style="text-align: left;">
+            <span style="font-size: 10pt;">
+                <strong><span style="color: #3366ff;">
+                    <span style="color: #339966;">YÜZ TARAMASI</span></span></strong></span>
+        </p>
+        <!--iframe-->
+        <p style="text-align: left;">
+            <span style="font-size: 24pt;">
+                <strong><span style="color: #3366ff;">
+                    <span style="color: #339966;">
+                        <iframe src="https://www.youtube.com/embed/kDJSyUvAOWE" allowfullscreen="allowfullscreen" width="560" height="315" frameborder="0"></iframe>
+                        </span></span></strong></span>
+        </p>
+        <p style="text-align: left;">
+            <span style="font-size: 18pt;">
+                <span style="color: #000000; font-size: 12pt;">Yüz Tarama, OyunYüzü adı verilen mobil uygulamayı kullanarak, kendi yüzünüzü,</span></span>
+        </p>
+        <p style="text-align: left;">
+            <span style="font-size: 18pt;">
+                <span style="color: #000000; font-size: 12pt;">karakterinizin yüzü ile değiştirme imkanı tanıyan bir özelliktir.</span></span>
+        </p>
+        <p style="text-align: left;">&nbsp;</p>
+        <p style="text-align: left;">
+            <span style="color: #339966;">
+                <strong><span style="font-size: 14pt;">Yüz Taraması Karakterlerinizde Nasıl Kullanılır?</span></strong></span>
+        </p>
+        <p style="text-align: left;">
+            <strong>
+                <span style="font-size: 18pt;">
+                    <img src="https://images.bynogame.com/images/games/22233.jpg" alt="" width="900" height="258"></span></strong>
+        </p>
+    </div>
+    </div>
 </div>
 </template>
 
@@ -81,6 +125,12 @@
 </script>
 
 <style scoped>
+.ko-icerik {
+    border-top: 1px solid #ebebeb;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 2em;
+}
  .boyut{
     width:85%;
     justify-content: center;
