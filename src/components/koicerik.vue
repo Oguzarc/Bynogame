@@ -6,7 +6,7 @@
         </div>
         <!--ilk sıra -->      
     <b-card-group deck>
-        <a href="/Oyunlar/knight-online">
+        <a href="/Oyunlar/knight-online/gold-bar">
             <b-card
                 img-src="https://images.bynogame.com/images/transcons/knight-gold-bar.png"
                 img-alt="Image"
