@@ -254,6 +254,7 @@
     </div>
   </b-tabs>
   <div>
+    <!--kullanıcı sözleşmesi-->
     <b-modal id="modal-tall" title="Üyelik Koşulları">
         <p>
           <span style="font-size: 10pt; font-family: Ubuntu, sans-serif;">BYNOGAME® KULLANICI SÖZLEŞMESİ<br>

@@ -43,12 +43,12 @@
     <div class="dusenmenu-content">
       <div class="sıra">
         <div class="sutun">         
-          <ul style="width: 52;">
+          <ul>
           <li >
             <a id="menu-ana" href=""> Knight Online</a>
               <ul id="menu-ana-2">
                 <li>
-                  <a href="">Oyun Parası</a>
+                  <a href="/">Oyun Parası</a>
                   <ul id="menu-ana-3">
                     <li>
                       <a href=""> Goldbar</a>
@@ -352,10 +352,10 @@ form.example::after {
 /* navbar içi linkler */
 .üstmenu a {
   float: left;
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0px 0px;
   text-decoration: none;
 }
 
@@ -421,7 +421,6 @@ form.example::after {
   color: black;
   padding: 2px;
   text-decoration: none !important;
-  display: left;
   text-align: left;
 }
 
@@ -433,7 +432,6 @@ form.example::after {
 } 
 
 #menu-ana{
- display: block;
  font-size: 15px;
  font-weight: 700;
  margin-bottom: .5em;
@@ -441,7 +439,6 @@ form.example::after {
 }
 
 #menu-ana-2{
-  min-height: 1px ;
   display: inline;
   padding-right: 0;
   font-size: 14px;
@@ -450,7 +447,6 @@ form.example::after {
   color: #435064 ; 
 }
 #menu-ana-3{
-min-height: 1px ;
 display: inline;
 padding-right: 0;
 font-size: 13px;

@@ -3,8 +3,7 @@
     <!--Footer-->
    <div class="footer">
       <!--Footer_container-->
-      <div class="footer_container">
-                
+      <div class="footer_container">             
          <!--sosyal medya ikonlar-->
         <div class="sıra">
           <div class="sosyal">
@@ -45,8 +44,8 @@
             <img data-original="https://images.bynogame.com/new_red2/footer/small/mobile-payments-2-512.png" alt="mobile payment" src="https://images.bynogame.com/new_red2/footer/small/mobile-payments-2-512.png" style="display: inline;">
           </div>
         </div>
-      </div>
-   </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
