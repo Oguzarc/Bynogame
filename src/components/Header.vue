@@ -38,7 +38,6 @@
 <div class="üstmenu">
   <div class="dusenmenu">
     <button class="dusenbut">Oyunlar
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dusenmenu-content">
       <div class="sıra">
@@ -102,7 +101,6 @@
   </div>
   <div class="dusenmenu">
     <button class="dusenbut">Knight Online
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dusenmenu-content">
       <div class="sıra">
@@ -129,7 +127,6 @@
   </div>
   <div class="dusenmenu">
     <button class="dusenbut">İtem & Skin
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dusenmenu-content">
       <div class="sıra">
@@ -156,7 +153,6 @@
   </div>
   <div class="dusenmenu">
     <button class="dusenbut">WAX
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dusenmenu-content">
       <div class="sıra">
@@ -183,7 +179,6 @@
   </div>
   <div class="dusenmenu">
     <button class="dusenbut">Pazar
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dusenmenu-content">
       <div class="sıra">
@@ -210,7 +205,6 @@
   </div>
   <div class="dusenmenu">
     <button class="dusenbut">Destekle
-      <i class="fa fa-caret-down"></i>
     </button>
     <div class="dusenmenu-content">
       <div class="sıra">
@@ -343,10 +337,12 @@ form.example::after {
   /* Navbar container */
 .üstmenu {
   overflow: hidden;
-  background-color: #ed502f;
+  background-color:white;
   font-family: Arial;
   float:left;
   width:100%;
+  border-bottom: 1px solid #435064;
+  border-top:1px solid #435064;
 }
 
 /* navbar içi linkler */
@@ -370,7 +366,7 @@ form.example::after {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font: inherit; /* Important for vertical align on mobile phones */
