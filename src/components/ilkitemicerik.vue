@@ -159,6 +159,7 @@
             </div>
         </div>
         <b-container>
+            <!--yazı ve spin butonları-->
             <b-list-group horizontal>      
             <div style="margin-left:30%">     
                 <b-spinner variant="danger" type="grow" label="Loading..."></b-spinner>
@@ -312,6 +313,7 @@
     margin-top: 20px;
     margin-left: 30%;
 }
+
 .bolge2 img{
     height: 80%;
     width: 80%;
