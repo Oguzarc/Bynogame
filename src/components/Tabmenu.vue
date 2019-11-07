@@ -22,7 +22,7 @@
     <b-card-text>Iron Row Reb +11</b-card-text>
   </b-card></a>
 
-    <a href=""><b-card img-src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png"
+    <a href="/sirius"><b-card img-src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png"
     footer="1175 TL"
     footer-tag="footer"
     footer-bg-variant="success"
