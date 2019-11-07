@@ -50,7 +50,7 @@
                   <a href="/">Oyun Parası</a>
                   <ul id="menu-ana-3">
                     <li>
-                      <a href=""> Goldbar</a>
+                      <a href="/Oyunlar/knight-online/gold-bar"> Goldbar</a>
                     </li>
                   </ul>
                 </li>
