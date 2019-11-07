@@ -1,49 +1,56 @@
 <template>
   <div class="boyut">
-    <!--Footer-->
-   <div class="footer">
-      <!--Footer_container-->
-      <div class="footer_container">             
-         <!--sosyal medya ikonlar-->
-        <div class="sıra">
-          <div class="sosyal">
-            <a href="https://instagram.com/bynogame/" title="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/bynogame" title="Facebook" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.twitch.tv/bynogame" title="Twitch" rel="noopener" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/bynogame" title="YouTube" rel="noopener" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/bynogame" title="Twitter" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/company/bynogame" rel="noopener" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="https://play.spotify.com/user/bynogame" rel="noopener" title="spotify" target="_blank"><i class="fa fa-spotify"></i></a>
-          </div>
+    <div class="ackapabutonu">
+    <b-button v-b-toggle.collapse-5 class="m-1">Footer Butonu</b-button>
+    </div>
+    <div class="sabit">
+      <b-collapse id="collapse-5">
+        <!--Footer-->
+      <div class="footer">
+          <!--Footer_container-->
+          <div class="footer_container">             
+            <!--sosyal medya ikonlar-->
+            <div class="sıra">
+              <div class="sosyal">
+                <a href="https://instagram.com/bynogame/" title="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/bynogame" title="Facebook" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitch.tv/bynogame" title="Twitch" rel="noopener" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/bynogame" title="YouTube" rel="noopener" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/bynogame" title="Twitter" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/bynogame" rel="noopener" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://play.spotify.com/user/bynogame" rel="noopener" title="spotify" target="_blank"><i class="fa fa-spotify"></i></a>
+              </div>
+            </div>
+            <!--iletişim kısmı-->
+            <div class="sıra">
+              <p class="iletişim">ByNoGame Bilişim LTD. (bynogame.com) info@bynogame.com Tel: 0 850 600 00 30          
+              </p>
+            </div>
+            <br>       
+            <p class="iletişim2"><span class="iletişim-span">
+                <a href="https://www.bynogame.com/Sozlesme/Uyelik-Sozlesmesi">Üyelik Sözleşmesi</a>
+                </span>
+                <span class="iletişim-span">
+                  <a href="https://www.bynogame.com/Sozlesme/Gizlilik-Politikasi"> Gizlilik Politikası</a>
+                  </span>
+                  <span>
+                    <a href="https://www.bynogame.com/Sozlesme/Alim-Satim-Sozlesmesi"> Hizmet Alım Satım Sözleşmesi</a>
+                  </span>
+            </p>       
+            </div>
+            <!--Alt resimler-->
+            <div class="sıra">
+              <div class="odeme_ikon">
+                <img data-original="https://images.bynogame.com/new_red2/footer/small/ssl-secure.png" alt="payment" src="https://images.bynogame.com/new_red2/footer/small/ssl-secure.png" style="display: inline;">
+                <img data-original="https://images.bynogame.com/new_red2/footer/small/troy_logo1.png" alt="troy" src="https://images.bynogame.com/new_red2/footer/small/troy_logo1.png" style="display: inline;"> 
+                <img data-original="https://images.bynogame.com/new_red2/footer/small/card-visa.png" alt="visa" src="https://images.bynogame.com/new_red2/footer/small/card-visa.png" style="display: inline;">
+                <img data-original="https://images.bynogame.com/new_red2/footer/small/card-mastercard.png" alt="mastercard" src="https://images.bynogame.com/new_red2/footer/small/card-mastercard.png" style="display: inline;">
+                <img data-original="https://images.bynogame.com/new_red2/footer/small/atm-machine-sign-hi.png" alt="atm" src="https://images.bynogame.com/new_red2/footer/small/atm-machine-sign-hi.png" style="display: inline;"> 
+                <img data-original="https://images.bynogame.com/new_red2/footer/small/mobile-payments-2-512.png" alt="mobile payment" src="https://images.bynogame.com/new_red2/footer/small/mobile-payments-2-512.png" style="display: inline;">
+              </div>
+            </div>
         </div>
-        <!--iletişim kısmı-->
-        <div class="sıra">
-          <p class="iletişim">ByNoGame Bilişim LTD. (bynogame.com) info@bynogame.com Tel: 0 850 600 00 30          
-          </p>
-        </div>
-        <br>       
-        <p class="iletişim2"><span class="iletişim-span">
-            <a href="https://www.bynogame.com/Sozlesme/Uyelik-Sozlesmesi">Üyelik Sözleşmesi</a>
-            </span>
-            <span class="iletişim-span">
-              <a href="https://www.bynogame.com/Sozlesme/Gizlilik-Politikasi"> Gizlilik Politikası</a>
-              </span>
-              <span>
-                <a href="https://www.bynogame.com/Sozlesme/Alim-Satim-Sozlesmesi"> Hizmet Alım Satım Sözleşmesi</a>
-              </span>
-        </p>       
-        </div>
-        <!--Alt resimler-->
-        <div class="sıra">
-          <div class="odeme_ikon">
-            <img data-original="https://images.bynogame.com/new_red2/footer/small/ssl-secure.png" alt="payment" src="https://images.bynogame.com/new_red2/footer/small/ssl-secure.png" style="display: inline;">
-            <img data-original="https://images.bynogame.com/new_red2/footer/small/troy_logo1.png" alt="troy" src="https://images.bynogame.com/new_red2/footer/small/troy_logo1.png" style="display: inline;"> 
-            <img data-original="https://images.bynogame.com/new_red2/footer/small/card-visa.png" alt="visa" src="https://images.bynogame.com/new_red2/footer/small/card-visa.png" style="display: inline;">
-            <img data-original="https://images.bynogame.com/new_red2/footer/small/card-mastercard.png" alt="mastercard" src="https://images.bynogame.com/new_red2/footer/small/card-mastercard.png" style="display: inline;">
-            <img data-original="https://images.bynogame.com/new_red2/footer/small/atm-machine-sign-hi.png" alt="atm" src="https://images.bynogame.com/new_red2/footer/small/atm-machine-sign-hi.png" style="display: inline;"> 
-            <img data-original="https://images.bynogame.com/new_red2/footer/small/mobile-payments-2-512.png" alt="mobile payment" src="https://images.bynogame.com/new_red2/footer/small/mobile-payments-2-512.png" style="display: inline;">
-          </div>
-        </div>
+      </b-collapse>
     </div>
   </div>
 </template>
@@ -145,5 +152,25 @@ a:hover{
   color:#ed502f !important;
   transition: color .2s;
   text-decoration: none !important;
+}
+.ackapabutonu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    bottom: 2em;
+    margin-right: 2em;
+    z-index: 99999;
+}
+.sabit {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    bottom: 2em;
+    margin-right: 10em;
+    z-index: 99998;
 }
 </style>
