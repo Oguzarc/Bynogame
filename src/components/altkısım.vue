@@ -212,9 +212,9 @@ a:hover{
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 0;
+    left: 0;
     bottom: 2em;
-    margin-right: 2em;
+    margin-left: 2em;
     z-index: 99999;
 }
 .sabit {
@@ -223,9 +223,9 @@ a:hover{
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 0;
+    left: 0;
     bottom: 2em;
-    margin-right: 2em;
+    margin-left: 2em;
     z-index: 99998;
 }
 </style>
