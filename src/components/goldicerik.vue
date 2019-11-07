@@ -60,9 +60,9 @@
                             </p>                                                                                                                                                                                                                                                                                                                                                       
                         <div class="" style="margin-top: 1em;">
                             <div class="col ko-gb-card-button">
-                                <button  class="btn btn-success" type="button" style="width: 50%;margin-right: 0.5em;">
+                                <button v-b-modal.modal-1 class="btn btn-success" type="button" style="width: 50%;margin-right: 0.5em;">
                                 Satış Yap</button>
-                                <button class="btn btn-danger game-item-list-purchase-buttons"   type="button" style="width: 45%;">
+                                <button v-b-modal.modal-2 class="btn btn-danger game-item-list-purchase-buttons"   type="button" style="width: 45%;">
                                 Satın Al</button>                                                                                           
                             </div>
                         </div>
@@ -513,6 +513,80 @@
                 </div>
             </div>       
     </div>
+    <!--modal1 satıi yap-->
+    <b-modal id="modal-1">
+        <div class="modal-header">
+            <div class="modal-title-content" style="display: flex; flex-direction: column">
+                <h6 class="modal-title" ><b><font color="#ed502f">Knight Online Sirius GB</font></b></h6>
+                <h6 class="modal-title" >S2 Folk Village | En az 20 M<br>10 Üzeri %1, 20 Üzeri %1.5 İndirim<br>30 Üzeri %2, 40 Üzeri %2.5 İndirim</h6>
+            </div>
+        </div>
+    <div class="modal-body">
+        <div class="row" style="align-items: flex-end">
+            <div class="col-lg-6 col-mg-6 col-sm-12">
+                <div class="form-group row flex-column">
+                    <div class="col">
+                        <label for="inputQuantity" class="col-form-label" style="font-size: 12px; padding-left: 1.5em;">Satmak
+                            İstediğiniz
+                            Miktar</label>
+                        <div class="col">
+                            <input type="number" name="miktar" value="1" min="0" step="0.01" class="form-control" id="inputQuantity" placeholder="Miktar Giriniz..">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="form-group row ">
+                        <div class="col">
+                            <div class="form-check mb-2">
+                                <input class="bng-styled-checkbox" type="checkbox" name="lira" value="1" step="0.01" id="Liralik-${bizesat_id}">
+                                <label class="form-check-label" >
+                                    Liralık
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+  </b-modal>
+  <!---modal2 satın al-->
+  <b-modal id="modal-2">
+        <div class="modal-header">
+            <div class="modal-title-content" style="display: flex; flex-direction: column">
+                <h6 class="modal-title" ><b><font color="#ed502f">Knight Online Sirius GB</font></b></h6>
+                <h6 class="modal-title" >S2 Folk Village | En az 20 M<br>10 Üzeri %1, 20 Üzeri %1.5 İndirim<br>30 Üzeri %2, 40 Üzeri %2.5 İndirim</h6>
+            </div>
+        </div>
+    <div class="modal-body">
+        <div class="row" style="align-items: flex-end">
+            <div class="col-lg-6 col-mg-6 col-sm-12">
+                <div class="form-group row flex-column">
+                    <div class="col">
+                        <label for="inputQuantity" class="col-form-label" style="font-size: 12px; padding-left: 1.5em;">Satın almak
+                            İstediğiniz
+                            Miktar</label>
+                        <div class="col">
+                            <input type="number" name="miktar"  min="0" step="0.01" class="form-control"  placeholder="Miktar Giriniz..">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="form-group row ">
+                    <div class="col">
+                        <div class="form-check mb-2">
+                            <input class="bng-styled-checkbox" type="checkbox" name="lira" value="1" step="0.01" >
+                            <label class="form-check-label" >
+                                Liralık
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </b-modal>
 </div>
 </template>
 
