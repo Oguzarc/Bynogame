@@ -10,6 +10,7 @@ import KO from './KnightOnline.vue'
 import Gold from './GoldBar.vue'
 import item from './ilkitem.vue'
 import ikinciitem from './ikinciitem.vue'
+import sepet from './Sepetim.vue'
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
@@ -27,6 +28,7 @@ const routes = [
     {path:'/Oyunlar/knight-online/gold-bar', component:Gold},
     {path:'/altar', component:item},
     {path:'/sirius', component:ikinciitem},
+    {path:'/Sepetim', component:sepet},
 ];
 
 const router = new VueRouter({
