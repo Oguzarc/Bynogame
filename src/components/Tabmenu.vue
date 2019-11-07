@@ -9,29 +9,32 @@
       <b-tab title="Knight Online Item" active><b-card-text>
            <div>
     <b-card-group deck>
-     <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
-    footer="250 TL"
+    <a href="/altar"> <b-card img-src="https://cdn.bynogame.com/koitem/ilanresima4506329e16f8cdd1ca816e462c8d05f.jpg"
+    footer="3200 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Vega"
+    title="Altar"
     style="max-width: 20rem;"
     align="center"
+    img-width="110px" img-height="110px"
   >
-    <b-card-text>+2 JUDICIOUS BELT</b-card-text>
-  </b-card>
+    <b-card-text>Iron Row Reb +11</b-card-text>
+  </b-card></a>
 
-       <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
-    footer="250 TL"
+    <a href=""><b-card img-src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png"
+    footer="1175 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Vega"
+    title="Sirius"
     style="max-width: 20rem;"
     align="center"
+    img-width="110px" img-height="110px"
   >
-    <b-card-text>+2 JUDICIOUS BELT</b-card-text>
-  </b-card>    <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
+    <b-card-text>+8 Eagle's Eye</b-card-text>
+  </b-card>  </a>  
+  <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
     footer="250 TL"
     footer-tag="footer"
     footer-bg-variant="success"
@@ -798,5 +801,13 @@
   margin-left: auto;
   width: 85%;
   margin-top:40px;
+}
+a{
+  color:#343a40;
+  text-decoration: none !important;
+}
+a:hover{
+   color:red;
+  transition: color .2s;
 }
 </style>
