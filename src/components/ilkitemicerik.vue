@@ -2,7 +2,7 @@
     <div style="margin-top:80px">
         <b-container fluid>
             <b-row>
-                <!--resim kısım-->             
+                <!--resim kısım1-->             
                 <b-col >
                 <div class="bolge2">                  
                     <img src="https://cdn.bynogame.com/koitem/ilanresima4506329e16f8cdd1ca816e462c8d05f.jpg" >
