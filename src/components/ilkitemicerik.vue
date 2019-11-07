@@ -83,7 +83,7 @@
         </b-container>
         <!--modal buton-->
             <div style="margin-left:40%">
-                <button class="btn btn-secondary w-25" type="button">
+                <button v-b-modal.modal-1 class="btn btn-secondary w-25" type="button">
                     Soru Sor/Cevapla
                     <span>
                          <i class="fa fa-comment ml-1" style="color: #fff !important;" id="commentBtn"></i>
@@ -301,6 +301,33 @@
                 </b-card-group>
             </b-collapse>
         </b-container>
+        <!--modal buton--içi-->
+        <b-modal id="modal-1" title="Soru Sor/Cevapla">
+            <div class=""><strong style="color: #ed502f">#3232996</strong>
+              kodlu ilanla ilgili soru sor / cevapla.
+            </div>
+            <div class="form-group input-sm">
+                        <div class="col-sm-10" style="margin-top=10%">
+                          <select  class="form-control">                                              
+                            <option >Şablon Seç</option>
+                            <option >Fiyatı.. tl yaparsanız almak istiyorum</option>
+                            <option >otp Devri yapabilirmiyiz</option>
+                            <option >Şablon Seç</option>
+                            <option >Fiyatı.. tl yaparsanız almak istiyorum</option>
+                            <option >otp Devri yapabilirmiyiz</option> 
+                            <option >Şablon Seç</option>
+                            <option >Fiyatı.. tl yaparsanız almak istiyorum</option>
+                            <option >otp Devri yapabilirmiyiz</option>                                                                                                                                     
+                          </select>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" name="smsgonder" class="form-check-input" id="smsgonder" style="margin-top: 0;">
+                            <label class="form-check-label" for="exampleCheck1">Satıcıyı/Alıcıyı Sms ile bilgilendir
+                                <small class="color-red">(0.1 TL ücret kesilir)</small>
+                            </label>
+                        </div>               
+            </div> 
+        </b-modal>
     </div>
 </template>
 
