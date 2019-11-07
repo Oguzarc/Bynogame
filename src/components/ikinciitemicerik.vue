@@ -5,7 +5,7 @@
                 <!--resim kısım1-->             
                 <b-col >
                 <div class="bolge2">                  
-                    <img src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png" >
+                    <img src="https://cdn.bynogame.com/koitem/ilanresimcf2771c8481cbce3670a1c53b1973f23.jpg" >
                 </div>
                 </b-col>
                 <!--satın alma kısmı-->
@@ -13,17 +13,17 @@
                     <div class="col-xl-8 col-lg-6 col-md-12 col-sm-12 item-detail-right-side" style="background-color: #fff;height: 35em; padding: 0">
                     <div class="row mt-3 mb-3 mr-0 ml-0">
                         <div class="col  d-flex justify-content-center pl-0 pr-0">
-                             <span  style="margin-left: 1em; font-size: 0.9em">Satıcı: <a ><span style="color: #ed502f;font-size: 1.2em"> pazarbeyefendisi <span style="color: #33b339;">(10 Başarılı)</span> </span></a> </span>
+                             <span  style="margin-left: 1em; font-size: 0.9em">Satıcı: <a ><span style="color: #ed502f;font-size: 1.2em"> WebDersiMukemmel <span style="color: #33b339;">(10 Başarılı)</span> </span></a> </span>
                                 <span style="margin-left: auto; font-size: 0.9em">Tarih: <span style="color: #ed502f;font-size: 0.9em"> Bugün</span> </span>
                         </div>
                     </div>
-                    <h6 class=" ml-3 mt-3" style="color: #ed502f">#3232996
-                        - Iron Bow  Reb + 11 </h6>
+                    <h6 class=" ml-3 mt-3" style="color: #ed502f">#3232127
+                        - Eagles Eye + 8 </h6>
                     <div class="row justify-content-center" style="height: 66%; margin: 0;">
                         <div class="col-12 mt-2 item-detail-info">
                             <div class="p-2" style="background-color: white; height: 4em; border-bottom: 1px solid #ebebeb;">
                                 <div  style="display: flex; flex-direction: column">
-                                <span  style="font-weight: bold; font-size: 1em; line-height: 1.5em">Human/Karus:</span>
+                                <span  style="font-weight: bold; font-size: 1em; line-height: 1.5em">Bow/Rogue:</span>
                                     <span ></span>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                                  right: 1.4em;">Teslimat Saatleri:
                                         23:50 - 14:50 </small>
                                     <div class="d-flex flex-column" style="width: 100%;">
-                                        <div  style="font-size: 0.75em; text-align: initial">Alan Kişiye Hayırlı Olsun  Görseldeki Gibidir</div>
+                                        <div  style="font-size: 0.75em; text-align: initial">İtem Çok iyidir. Mutlaka Al kardeşim. Al Git.</div>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                         <div class="col d-flex flex-column">
                             <div class="row ilan-buttons" style="margin: 0;">
                                 <div class=" pl-0 pr-0 d-flex align-items-center">
-                                    <span class=" ml-3" style="font-size: 2em">3200 TL</span>                                   
+                                    <span class=" ml-3" style="font-size: 2em">1175 TL</span>                                   
                                 </div>
                                 <div class="col d-flex justify-content-around ">
                                     <div style="width: 100%">
