@@ -517,6 +517,7 @@
 </template>
 
 <script>
+/*Tabloya içerik ekleme*/
 export default {
     data() {
       return {
@@ -646,17 +647,20 @@ export default {
 </script>
 
 <style scoped>
+/*Bu klasın içindeki p tagına etki */
 .ko-gb-content p {
     text-align: start !important;
     font-size: .9em !important;
     line-height: .9em;
 }
+/*genel sayfa düzeni */
  .boyut{
     width:85%;
     justify-content: center;
     margin-left: 10%;
     margin-top:80px;
  }
+ /*sayfa içi bölüm*/
  .cont{
     padding-right: 15px;
     padding-left: 15px;
@@ -664,10 +668,12 @@ export default {
     margin-left: auto;
     width: 100%;
  }
+ /*sayfa içi bölümün a tagı etkisi*/
  .cont a{
     color: black;
     text-decoration: none !important;
  }
+ /*mause üste gelince renk geçişi */
  .cont a:hover{
     color:red;
     transition: color .2s;
