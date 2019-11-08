@@ -44,7 +44,7 @@
         <div class="sutun">         
           <ul>
           <li >
-            <a id="menu-ana" href=""> Knight Online</a>
+            <a id="menu-ana" href="/Oyunlar/knight-online"> Knight Online</a>
               <ul id="menu-ana-2">
                 <li>
                   <a href="/">Oyun Parası</a>
