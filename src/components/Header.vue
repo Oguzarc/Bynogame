@@ -2,9 +2,8 @@
 <div>
   <div class="vld-parent">
         <loading :active.sync="isLoading" 
-        :is-full-page="fullPage"></loading>
-        
-    </div> 
+        :is-full-page="fullPage"></loading>    
+  </div> 
 	<div id="hvrenk" class="header">
 			<a href="https://www.hollyhood.com.tr/">Hollyhood</a>
 			<a href="#paramkart">Param Kart</a>

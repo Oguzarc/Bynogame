@@ -1,10 +1,41 @@
 <template>
 <div>
+	<div class="vld-parent">
+        <loading :active.sync="isLoading" 
+        :is-full-page="fullPage"></loading>     
+  </div> 
 	<div class="header2">
-		<a href="/"><img src="../assets/bynogame-logo-siyah.png" style="width:180px"></a>	 
+		<a style="cursor:pointer" @click="goAnasayfa">
+			<img src="../assets/bynogame-logo-siyah.png" style="width:180px"></a>	 
 	</div>
 </div>
 </template>
+
+<script>
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
+export default {
+        data() {
+            return {
+                isLoading: false,
+                fullPage: true
+            }
+        },
+        components: {
+            Loading
+        },
+        methods: {
+            goAnasayfa(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/');
+                },1000)
+            },         
+        }
+    }
+</script>
 
 <style scoped>
 
