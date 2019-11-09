@@ -2,15 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
-import Anasayfa from './Anasayfa.vue'
-import Girisyap from './Girisyap.vue'
-import Ödemeler from './Ödemeler.vue'
-import Oyunlar from './Oyunlar.vue'
-import KO from './KnightOnline.vue'
-import Gold from './GoldBar.vue'
-import item from './ilkitem.vue'
-import ikinciitem from './ikinciitem.vue'
-import sepet from './Sepetim.vue'
+
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
@@ -18,6 +10,17 @@ Vue.use(BootstrapVue)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.config.productionTip = false
+
+/*lazyLoad için */
+const Girisyap = () => import('./Girisyap.vue')
+const Ödemeler = () => import('./Ödemeler.vue')
+const Anasayfa = () => import('./Anasayfa.vue')
+const Oyunlar = () => import('./Oyunlar.vue')
+const KO = () => import('./KnightOnline.vue')
+const Gold = () => import('./GoldBar.vue')
+const item = () => import('./ilkitem.vue')
+const ikinciitem = () => import('./ikinciitem.vue')
+const sepet = () => import('./Sepetim.vue')
 
 const routes = [
     {path:'/Giris', component:Girisyap},
