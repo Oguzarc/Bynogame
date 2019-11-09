@@ -22,7 +22,7 @@
     </a>
     <a>
       <ul class="İkonS" style="list-style: none;"> 
-        <a href="/Giris">
+        <a style="cursor:pointer" @click="goGiris">
             <li><i class="fa fa-user fa-lg"></i>
             </li>
             Giriş Yap
@@ -266,7 +266,15 @@ export default {
                   this.isLoading = false
                   this.$router.push('/Oyunlar');
                 },1000)
-            }         
+            },
+            goGiris(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Giris');
+                },1000)
+            }          
         }
     }
 </script>
