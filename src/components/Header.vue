@@ -27,7 +27,7 @@
             </li>
             Giriş Yap
         </a>
-        <a href="/Sepetim">
+        <a style="cursor:pointer" @click="goSepet">
           <li><i class="fa fa-shopping-cart fa-lg"></i>
           </li>
           Sepetim
@@ -274,7 +274,15 @@ export default {
                   this.isLoading = false
                   this.$router.push('/Giris');
                 },1000)
-            }          
+            }, 
+            goSepet(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Sepetim');
+                },1000)
+            },         
         }
     }
 </script>
