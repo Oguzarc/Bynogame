@@ -1,5 +1,10 @@
 <template>
 <div>
+  <div class="vld-parent">
+        <loading :active.sync="isLoading" 
+        :is-full-page="fullPage"></loading>
+        
+    </div> 
 	<div id="hvrenk" class="header">
 			<a href="https://www.hollyhood.com.tr/">Hollyhood</a>
 			<a href="#paramkart">Param Kart</a>
@@ -27,7 +32,7 @@
           </li>
           Sepetim
         </a>
-        <a href="/Ödemeler">
+        <a style="cursor:pointer" @click="goOdemeler">
           <li><i class="fa fa-credit-card"></i>
           </li>
           Ödeme
@@ -233,14 +238,37 @@
 </div>
 </template>
 <script>
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
 export default {
-  methods:{
-    goOyunlar(){
-      this.$router.push('/Oyunlar')
+        data() {
+            return {
+                isLoading: false,
+                fullPage: true
+            }
+        },
+        components: {
+            Loading
+        },
+        methods: {
+            goOdemeler() {
+                this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Ödemeler');
+                },1000)
+            },
+            goOyunlar(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Oyunlar');
+                },1000)
+            }         
+        }
     }
-  }
-
-}
 </script>
 <style scoped>
 .header {
