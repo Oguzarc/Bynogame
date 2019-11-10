@@ -25,7 +25,7 @@
     <b-card-text>Iron Row Reb +11</b-card-text>
   </b-card></a>
 
-    <a href="/sirius"><b-card img-src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png"
+    <a style="cursor:pointer" @click="goSirius"><b-card img-src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png"
     footer="1175 TL"
     footer-tag="footer"
     footer-bg-variant="success"
@@ -802,14 +802,21 @@ export default {
         components: {
             Loading
         },
-        methods: {
-            
+        methods: {          
             goAltar(){
               this.isLoading = true;
                 // simulate AJAX
                 setTimeout(() => {
                   this.isLoading = false
                   this.$router.push('/altar');
+                },1000)
+            },
+             goSirius(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/sirius');
                 },1000)
             },         
         }
