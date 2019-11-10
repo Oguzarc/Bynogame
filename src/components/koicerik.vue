@@ -1,12 +1,16 @@
 <template>
 <div class="boyut">
+    <div class="vld-parent">
+        <loading :active.sync="isLoading" 
+        :is-full-page="fullPage"></loading>    
+  </div>
     <div class="cont">
         <div class="knight-online-texts">
             <h3 class="text-center mb-4" style="font-weight: 800; font-size: 24px">Knight Online</h3>
         </div>
         <!--ilk sıra -->      
     <b-card-group deck>
-        <a href="/Oyunlar/knight-online/gold-bar">
+        <a style="cursor:pointer" @click="goGold">
             <b-card
                 img-src="https://images.bynogame.com/images/transcons/knight-gold-bar.png"
                 img-alt="Image"
@@ -112,6 +116,35 @@
     </div>
 </div>
 </template>
+
+<script>
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
+export default {
+        data() {
+            return {
+                rows: 100,
+                currentPage: 1,
+                isLoading: false,
+                fullPage: true
+            }
+        },
+        components: {
+            Loading
+        },
+        methods: {
+            
+            goGold(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Oyunlar/knight-online/gold-bar');
+                },1000)
+            },         
+        }
+    }
+</script>
 
 <style scoped>
 .ko-icerik {
