@@ -1,6 +1,9 @@
-<template>
-    
+<template>  
 <div class="boyut">
+  <div class="vld-parent">
+      <loading :active.sync="isLoading" 
+      :is-full-page="fullPage"></loading>    
+  </div>
 <div class="anabaslık">
       <h3>ITEM VE SKIN</h3>
       </div>
@@ -9,7 +12,7 @@
       <b-tab title="Knight Online Item" active><b-card-text>
            <div>
     <b-card-group deck>
-    <a href="/altar"> <b-card img-src="https://cdn.bynogame.com/koitem/ilanresima4506329e16f8cdd1ca816e462c8d05f.jpg"
+    <a style="cursor:pointer" @click="goAltar"> <b-card img-src="https://cdn.bynogame.com/koitem/ilanresima4506329e16f8cdd1ca816e462c8d05f.jpg"
     footer="3200 TL"
     footer-tag="footer"
     footer-bg-variant="success"
@@ -783,6 +786,35 @@
 
     
 </template>
+
+<script>
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
+export default {
+        data() {
+            return {
+                rows: 100,
+                currentPage: 1,
+                isLoading: false,
+                fullPage: true
+            }
+        },
+        components: {
+            Loading
+        },
+        methods: {
+            
+            goAltar(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/altar');
+                },1000)
+            },         
+        }
+    }
+</script>
 
 <style scoped>
 .anabaslık{
