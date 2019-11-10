@@ -1,5 +1,9 @@
 <template>
 <div class="boyut">
+    <div class="vld-parent">
+        <loading :active.sync="isLoading" 
+        :is-full-page="fullPage"></loading>    
+  </div>
     <div class="cont">
         <!--üst nav --> 
         <div class="mt-3">
@@ -8,7 +12,7 @@
         </div>
         <!--ilk sıra -->      
     <b-card-group deck>
-        <a href="/Oyunlar/knight-online">
+        <a style="cursor:pointer" @click="goKO">
             <b-card
                 img-src="https://images.bynogame.com/images/transcons/knight-online.png"
                 img-alt="Image"
@@ -155,14 +159,32 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        rows: 100,
-        currentPage: 1
-      }
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
+export default {
+        data() {
+            return {
+                rows: 100,
+                currentPage: 1,
+                isLoading: false,
+                fullPage: true
+            }
+        },
+        components: {
+            Loading
+        },
+        methods: {
+            
+            goKO(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Oyunlar/knight-online');
+                },1000)
+            },         
+        }
     }
-  }
 </script>
 
 <style scoped>
