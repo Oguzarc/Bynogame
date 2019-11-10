@@ -49,13 +49,13 @@
         <div class="sutun">         
           <ul>
           <li >
-            <a id="menu-ana" href="/Oyunlar/knight-online"> Knight Online</a>
+            <a id="menu-ana" style="cursor:pointer" @click="goKO"> Knight Online</a>
               <ul id="menu-ana-2">
                 <li>
                   <a href="/">Oyun Parası</a>
                   <ul id="menu-ana-3">
                     <li>
-                      <a href="/Oyunlar/knight-online/gold-bar"> Goldbar</a>
+                      <a style="cursor:pointer" @click="goGold"> Goldbar</a>
                     </li>
                   </ul>
                 </li>
@@ -289,6 +289,22 @@ export default {
                 setTimeout(() => {
                   this.isLoading = false
                   this.$router.push('/');
+                },1000)
+            },
+            goKO(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Oyunlar/knight-online');
+                },1000)
+            },
+            goGold(){
+              this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Oyunlar/knight-online/gold-bar');
                 },1000)
             },         
         }
