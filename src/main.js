@@ -21,6 +21,7 @@ const Gold = () => import('./GoldBar.vue')
 const item = () => import('./ilkitem.vue')
 const ikinciitem = () => import('./ikinciitem.vue')
 const sepet = () => import('./Sepetim.vue')
+const SSS = () => import('./SSS.vue')
 
 const routes = [
     {path:'/Giris', component:Girisyap},
@@ -32,6 +33,7 @@ const routes = [
     {path:'/altar', component:item},
     {path:'/sirius', component:ikinciitem},
     {path:'/Sepetim', component:sepet},
+    {path:'/iletisim/SSS', component:SSS},
 ];
 
 const router = new VueRouter({

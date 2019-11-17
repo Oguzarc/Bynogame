@@ -1,5 +1,9 @@
 <template>
   <div class="boyut">
+    <div class="vld-parent" style="z-index:99999">
+        <loading :active.sync="isLoading" 
+        :is-full-page="fullPage"></loading>    
+  </div> 
     <div class="ackapabutonu">
     <b-button v-b-toggle.collapse-2 class="m-1">Footer Butonu</b-button>
     </div>
@@ -51,7 +55,7 @@
               <div id="kutu" style="margin-left:150px;">
                 <h5>Yardım</h5>
                 <ul>              
-                  <li><a href="#">S.S.S</a></li>
+                  <li><a style="cursor:pointer" @click="goSSS" >S.S.S</a></li>
                   <li><a href="#">Canlı Destek</a></li>
                   <li><a href="#">Gizlilik Politikası</a></li>
                   <li><a href="#">Üyelik ve Hizmet Sözleşmesi</a></li>
@@ -107,6 +111,31 @@
     </div>
    </div>
 </template>
+<script>
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
+export default {
+        data() {
+            return {
+                isLoading: false,
+                fullPage: true
+            }
+        },
+        components: {
+            Loading
+        },
+        methods: {
+            goSSS() {
+                this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/iletisim/SSS');
+                },1000)
+            }
+          }
+}
+</script>
 
 <style scoped>
 .footer { 
