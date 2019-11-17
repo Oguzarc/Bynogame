@@ -4,122 +4,156 @@
       <loading :active.sync="isLoading" 
       :is-full-page="fullPage"></loading>    
   </div>
-<div class="anabaslık">
-      <h3>ITEM VE SKIN</h3>
-      </div>
+  <div class="anabaslık">
+        <h3>ITEM VE SKIN</h3>
+  </div>
+  <b-tooltip target="tooltip-target-1" triggers="hover">  
+        <img style="width:170px" src="https://cdn.bynogame.com/koitem/ilanresima4506329e16f8cdd1ca816e462c8d05f.jpg">
+  </b-tooltip>
+  <b-tooltip target="tooltip-target-2" triggers="hover">  
+        <img style="width:170px" src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png">
+  </b-tooltip>
+  <b-tooltip target="tooltip-target-3" triggers="hover">  
+        <img style="width:170px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg">
+  </b-tooltip>
   <b-card no-body>
     <b-tabs pills card vertical>
       <b-tab title="Knight Online Item" active><b-card-text>
            <div>
     <b-card-group deck>
-    <a style="cursor:pointer" @click="goAltar"> <b-card img-src="https://cdn.bynogame.com/koitem/ilanresima4506329e16f8cdd1ca816e462c8d05f.jpg"
+    <a style="cursor:pointer" @click="goAltar"> <b-card 
     footer="3200 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Altar"
     style="max-width: 20rem;"
     align="center"
-    img-width="110px" img-height="110px"
-  >
+  ><b-img-lazy id="tooltip-target-1" 
+  width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresima4506329e16f8cdd1ca816e462c8d05f.jpg"> 
+  </b-img-lazy>
+  <b-card-title>Altar</b-card-title>
     <b-card-text>Iron Row Reb +11</b-card-text>
   </b-card></a>
 
-    <a style="cursor:pointer" @click="goSirius"><b-card img-src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png"
+    <a style="cursor:pointer" @click="goSirius"><b-card 
     footer="1175 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Sirius"
     style="max-width: 20rem;"
     align="center"
-    img-width="110px" img-height="110px"
-  >
+  ><b-img-lazy id="tooltip-target-2" 
+  width="110px" height="110px" src="https://cdn.bynogame.com/ko-item-foto/eagles-eye-8-normal.png"> 
+  </b-img-lazy>
+  <b-card-title>Sirius</b-card-title>
     <b-card-text>+8 Eagle's Eye</b-card-text>
-  </b-card>  </a>  
-  <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
+  </b-card>  </a> 
+
+  <b-card 
     footer="250 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Vega"
     style="max-width: 20rem;"
     align="center"
-  >
+  ><b-img-lazy id="tooltip-target-3" 
+  width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"> 
+  </b-img-lazy>
+  <b-card-title>VEGA</b-card-title>
     <b-card-text>+2 JUDICIOUS BELT</b-card-text>
-  </b-card>    <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
+  </b-card>    
+  <b-card 
     footer="250 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Vega"
     style="max-width: 20rem;"
     align="center"
-  >
+  ><b-img-lazy id="tooltip-target-3" 
+  width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"> 
+  </b-img-lazy>
+  <b-card-title>VEGA</b-card-title>
     <b-card-text>+2 JUDICIOUS BELT</b-card-text>
-  </b-card>    <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
+  </b-card>    
+  <b-card 
     footer="250 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Vega"
     style="max-width: 20rem;"
     align="center"
-  >
+  ><b-img-lazy id="tooltip-target-3" 
+  width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"> 
+  </b-img-lazy>
+  <b-card-title>VEGA</b-card-title>
     <b-card-text>+2 JUDICIOUS BELT</b-card-text>
   </b-card>
     </b-card-group>
 
     <b-card-group deck>
-           <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
+      <b-card 
+      footer="250 TL"
+      footer-tag="footer"
+      footer-bg-variant="success"
+      footer-border-variant="dark"
+      style="max-width: 20rem;"
+      align="center"
+    ><b-img-lazy id="tooltip-target-3" 
+    width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"> 
+    </b-img-lazy>
+    <b-card-title>VEGA</b-card-title>
+      <b-card-text>+2 JUDICIOUS BELT</b-card-text>
+    </b-card>    
+    <b-card 
     footer="250 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Vega"
     style="max-width: 20rem;"
     align="center"
-  >
+    ><b-img-lazy id="tooltip-target-3" 
+    width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"> 
+    </b-img-lazy>
+    <b-card-title>VEGA</b-card-title>
+      <b-card-text>+2 JUDICIOUS BELT</b-card-text>
+    </b-card>    
+  <b-card 
+    footer="250 TL"
+    footer-tag="footer"
+    footer-bg-variant="success"
+    footer-border-variant="dark"
+    style="max-width: 20rem;"
+    align="center"
+  ><b-img-lazy id="tooltip-target-3" 
+  width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"> 
+  </b-img-lazy>
+  <b-card-title>VEGA</b-card-title>
     <b-card-text>+2 JUDICIOUS BELT</b-card-text>
-  </b-card>    <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
+  </b-card>    
+  <b-card 
     footer="250 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Vega"
     style="max-width: 20rem;"
     align="center"
-  >
+  ><b-img-lazy id="tooltip-target-3" 
+  width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"> 
+  </b-img-lazy>
+  <b-card-title>VEGA</b-card-title>
     <b-card-text>+2 JUDICIOUS BELT</b-card-text>
-  </b-card>    <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
+  </b-card>    
+  <b-card 
     footer="250 TL"
     footer-tag="footer"
     footer-bg-variant="success"
     footer-border-variant="dark"
-    title="Vega"
     style="max-width: 20rem;"
     align="center"
-  >
-    <b-card-text>+2 JUDICIOUS BELT</b-card-text>
-  </b-card>    <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
-    footer="250 TL"
-    footer-tag="footer"
-    footer-bg-variant="success"
-    footer-border-variant="dark"
-    title="Vega"
-    style="max-width: 20rem;"
-    align="center"
-  >
-    <b-card-text>+2 JUDICIOUS BELT</b-card-text>
-  </b-card>    <b-card img-src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"
-    footer="250 TL"
-    footer-tag="footer"
-    footer-bg-variant="success"
-    footer-border-variant="dark"
-    title="Vega"
-    style="max-width: 20rem;"
-    align="center"
-  >
+  ><b-img-lazy id="tooltip-target-3" 
+  width="110px" height="110px" src="https://cdn.bynogame.com/koitem/ilanresimed9fa2d17ca5c1378e7f5c46c35dfc79.jpg"> 
+  </b-img-lazy>
+  <b-card-title>VEGA</b-card-title>
     <b-card-text>+2 JUDICIOUS BELT</b-card-text>
   </b-card>
   
@@ -796,8 +830,14 @@ export default {
                 rows: 100,
                 currentPage: 1,
                 isLoading: false,
-                fullPage: true
+                fullPage: true,
+                mainProps: {
+                  center: true,
+                  fluidGrow: true,
+                  blank: true,
+                  blankColor: '#bbb',               
             }
+          }
         },
         components: {
             Loading
