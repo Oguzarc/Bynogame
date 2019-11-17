@@ -57,7 +57,7 @@
                 <ul>              
                   <li><a style="cursor:pointer" @click="goSSS" >S.S.S</a></li>
                   <li><a href="#">Canlı Destek</a></li>
-                  <li><a href="#">Gizlilik Politikası</a></li>
+                  <li><a style="cursor:pointer" @click="goGizlilik">Gizlilik Politikası</a></li>
                   <li><a href="#">Üyelik ve Hizmet Sözleşmesi</a></li>
                   <li><a href="#">Hizmet Alım Satım Sözleşmesi</a></li>
                 </ul>
@@ -131,6 +131,14 @@ export default {
                 setTimeout(() => {
                   this.isLoading = false
                   this.$router.push('/iletisim/SSS');
+                },1000)
+            },
+            goGizlilik() {
+                this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Gizlilik');
                 },1000)
             }
           }
