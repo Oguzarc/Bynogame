@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from './components/anaheader.vue'
 import Tabmenu from './components/Tabmenu.vue'
 import Slider from './components/Slider.vue'
 import altkısım from './components/altkısım.vue'
