@@ -23,6 +23,7 @@ const ikinciitem = () => import('./ikinciitem.vue')
 const sepet = () => import('./Sepetim.vue')
 const SSS = () => import('./SSS.vue')
 const Gizlilik = () => import('./Gizlilik.vue')
+const Uyelik = () => import('./uyelik.vue')
 
 const routes = [
     {path:'/Giris', component:Girisyap},
@@ -36,6 +37,7 @@ const routes = [
     {path:'/Sepetim', component:sepet},
     {path:'/iletisim/SSS', component:SSS},
     {path:'/Gizlilik', component:Gizlilik},
+    {path:'/Uyelik-Sozlesmesi', component:Uyelik},
 ];
 
 const router = new VueRouter({

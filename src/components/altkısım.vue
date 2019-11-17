@@ -58,7 +58,7 @@
                   <li><a style="cursor:pointer" @click="goSSS" >S.S.S</a></li>
                   <li><a href="#">Canlı Destek</a></li>
                   <li><a style="cursor:pointer" @click="goGizlilik">Gizlilik Politikası</a></li>
-                  <li><a href="#">Üyelik ve Hizmet Sözleşmesi</a></li>
+                  <li><a style="cursor:pointer" @click="goUyelik">Üyelik ve Hizmet Sözleşmesi</a></li>
                   <li><a href="#">Hizmet Alım Satım Sözleşmesi</a></li>
                 </ul>
               </div> 
@@ -140,7 +140,15 @@ export default {
                   this.isLoading = false
                   this.$router.push('/Gizlilik');
                 },1000)
-            }
+            },
+            goUyelik() {
+                this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Uyelik-Sozlesmesi');
+                },1000)
+            },
           }
 }
 </script>
