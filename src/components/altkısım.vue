@@ -59,7 +59,7 @@
                   <li><a href="#">Canlı Destek</a></li>
                   <li><a style="cursor:pointer" @click="goGizlilik">Gizlilik Politikası</a></li>
                   <li><a style="cursor:pointer" @click="goUyelik">Üyelik ve Hizmet Sözleşmesi</a></li>
-                  <li><a href="#">Hizmet Alım Satım Sözleşmesi</a></li>
+                  <li><a style="cursor:pointer" @click="goHizmet">Hizmet Alım Satım Sözleşmesi</a></li>
                 </ul>
               </div> 
             </div>     
@@ -147,6 +147,14 @@ export default {
                 setTimeout(() => {
                   this.isLoading = false
                   this.$router.push('/Uyelik-Sozlesmesi');
+                },1000)
+            },
+            goHizmet() {
+                this.isLoading = true;
+                // simulate AJAX
+                setTimeout(() => {
+                  this.isLoading = false
+                  this.$router.push('/Hizmet-Sozlesmesi');
                 },1000)
             },
           }
