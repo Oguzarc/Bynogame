@@ -1,2 +1,0 @@
-# Bynogame
-Web Proglama Ödevi
