@@ -1,9 +1,9 @@
 # Bynogame
 Web Programlama Ödevi
 
-#Bynogame1 
+# Bynogame1 run 
 npm run serve
 
-#Server 
+# Server run
 npm run dev
 
