@@ -29,10 +29,10 @@ router.delete('/:id', async (req, res)=>{
 
 async function loadPostCollection(){
     const client = await mongodb.MongoClient.connect
-    ('mongodb+srv://abc123:oguzfener123@cluster0-7shz7.mongodb.net/test?retryWrites=true&w=majority',
+    ('mongodb+srv://oguzarac:oguzarac123@cluster0-kuqo7.mongodb.net/test?retryWrites=true&w=majority',
     {useNewUrlParser:true});
 
-    return client.db('vue_express').collection('posts')
+    return client.db('bynogame').collection('posts')
 }
 
 module.exports = router;
